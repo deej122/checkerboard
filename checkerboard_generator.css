@@ -1,0 +1,55 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+input.text {
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	font-size: 24px;
+	width: 80px;
+}
+
+input.button {
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(11, 13, 156, 1);
+	color: rgba(11, 13, 156, 1);
+	cursor: pointer;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+input.button:hover {
+	background-color: rgba(11, 13, 156, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.intro {
+	font-size: 24px;
+}
+
+#checkerboard {
+	text-align: center;
+	display: inline-block;
+	min-height: 500px;
+	min-width: 500px;
+}
+
+.square_one {
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	display: inline-block;
+	background-color: rgba(251, 217, 16, 1);
+}
+
+.square_two {
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	display: inline-block;
+	background-color: rgba(11, 13, 156, 1);
+}

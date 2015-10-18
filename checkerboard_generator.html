@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="checkerboard_generator.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	</head>
+	  
+	<body>
+		<h1 class="header"> Let's build a checkerboard! </h1>
+		<div class="intro">
+			<p>
+				I want a checkerboard with <input type="number" class="text" id="sizeInput" name="size" placeholder="0" value="5"/> squares on each side.
+			</p>
+			<input type="button" class="button" value="Let's go!" onclick="generateNewCheckerboard()"/>
+		</div>
+		<br/>
+		<div id="checkerboard">
+			<span> 
+				Enter a dimension above and press "Let's go!" to see your board here. 
+			</span>
+		</div>
+	  	<script src="checkerboard_generator.js"></script>
+	</body>
+
+</html>
