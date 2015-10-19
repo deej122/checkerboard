@@ -27,29 +27,34 @@ input.button:hover {
 	color: rgba(255, 255, 255, 1);
 }
 
+
+#checkerboard {
+	display: inline-block;
+	min-height: 500px;
+	min-width: 500px;
+	text-align: center;
+}
+
 .intro {
 	font-size: 24px;
 }
 
-#checkerboard {
-	text-align: center;
-	display: inline-block;
-	min-height: 500px;
-	min-width: 500px;
-}
+/*Style the two different types of squares (light and dark)*/
 
+/*Yellow*/
 .square_one {
-	padding: 0;
-	margin: 0;
-	vertical-align: top;
-	display: inline-block;
 	background-color: rgba(251, 217, 16, 1);
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
 }
 
+/*Blue*/
 .square_two {
-	padding: 0;
-	margin: 0;
-	vertical-align: top;
-	display: inline-block;
 	background-color: rgba(11, 13, 156, 1);
+	display: inline-block;
+	margin: 0;	
+	padding: 0;
+	vertical-align: top;
 }
