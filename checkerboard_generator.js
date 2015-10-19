@@ -9,9 +9,9 @@ function buildCheckerboard() {
 	var squareHeight = document.getElementById("checkerboard").clientHeight / size; //Set height of squares
 	var squareWidth = document.getElementById("checkerboard").clientWidth / size; //Set width of squares
 
-	while (i < size) {
+	while(i < size) {
 		//For even numbered rows
-		if (i%2 == 0) {
+		if(i%2 == 0) {
 			var square = createDark(squareHeight, squareWidth);
 			addSquare(square);
 			while(j < size) {
@@ -79,10 +79,7 @@ function addSquare(square) {
 
 //Resize the board depending on the chosen dimensions. 
 function sizeBoard(size) {
-	var checkerboardDimension = document.getElementById("checkerboard").clientHeight;
-
 	//Never allow squares to get too small using size ratio.
-	var sizeRatio = size/checkerboardDimension;
 	document.getElementById("checkerboard").style.height = (size/0.04) + "px";
 	document.getElementById("checkerboard").style.width = (size/0.04) + "px";
 }
