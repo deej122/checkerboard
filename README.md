@@ -1,5 +1,4 @@
 # Checkerboard Generator
-===========
 
 **Built for Piazza Interview**              
       
