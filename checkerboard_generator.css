@@ -39,8 +39,11 @@ input.button:hover {
 	font-size: 24px;
 }
 
-/*Style the two different types of squares (light and dark)*/
+.footer {
+	font-size: 12px;
+}
 
+/*Style the two different types of squares (light and dark)*/
 /*Yellow*/
 .square_one {
 	background-color: rgba(251, 217, 16, 1);
